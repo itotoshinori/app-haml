@@ -1,0 +1,18 @@
+%h1 Listing tweets
+%h1
+  = @comment
+- @tweets.each do |tweet|
+  %p.hoge
+    = tweet.title
+    = tweet.content
+    = link_to '詳細', tweet
+    = link_to '削除', tweet_path(tweet.id), :method => :delete   
+%p.hoge 
+  = link_to 'New Tweet', new_tweet_path
+:css
+   .hoge {
+      font-weight: bold;
+      color: orange;
+      font-size:30px;
+   }
+   
