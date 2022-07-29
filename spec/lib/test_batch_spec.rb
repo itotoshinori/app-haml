@@ -6,7 +6,7 @@ RSpec.describe Tweet, type: :model do
   end 
   describe 'モジュールテスト' do
     it 'テストバッチテスト' do
-      expect(Batch::TestBatch.testBatch).to eq '--- Batch::TestBatch.testBatch ---'
+      expect(Batch::TestBatch.testBatch).to eq '---- Batch::TestBatch.testBatch ----'
     end
   end
 end
