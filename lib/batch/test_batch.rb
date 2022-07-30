@@ -5,7 +5,7 @@ class Batch::TestBatch
       contents = File.read("#{Rails.root}/lib/test.txt") 
       #contents = File.read("http://localhost:3000/test.txt") 
       #contents.each_line do |content|
-      puts message = 'バッチが実行されました'
+      puts message = 'バッチ処理を実行'
       message
         #puts content
       #end
