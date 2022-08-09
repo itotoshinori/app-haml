@@ -5,7 +5,7 @@ namespace :sample do
   end
   desc "goodby world task"
   task :goodby do
-      puts "goodby world"
+      puts "goodby world！"
   end
   desc "hello world task"
   task hello2: :environment do
