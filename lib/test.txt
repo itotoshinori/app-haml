@@ -3,3 +3,4 @@ Math
 English
 Social studies
 Science
+sports
