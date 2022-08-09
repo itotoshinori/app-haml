@@ -6,7 +6,7 @@ namespace :sample22 do
 
   desc "goodby world task"
   task :goodby do
-      puts "goodby world!!!!!!!!!!"
+      puts "goodby world!"
   end
   
   desc "hello world task"
