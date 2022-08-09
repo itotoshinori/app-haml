@@ -6,7 +6,7 @@ namespace :sample do
   desc "goodby world task"
   task :goodby do
       #debugger
-      puts "goodby world?!"
+      puts "goodby world?!?!"
   end
   desc "hello world task"
   task hello2: :environment do
