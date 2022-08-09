@@ -5,7 +5,6 @@ namespace :sample22 do
   end
   desc "goodby world task"
   task :goodby do
-      #debugger
       puts "goodby world"
   end
   desc "hello world task"
